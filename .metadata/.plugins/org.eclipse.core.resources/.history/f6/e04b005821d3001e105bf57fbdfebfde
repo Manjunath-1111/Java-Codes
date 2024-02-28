@@ -1,0 +1,31 @@
+package practice;
+
+class City
+{
+	City()
+	{
+		System.out.println("1");
+	}
+}
+
+class State
+{
+	State()
+	{
+		System.out.println("2");
+	}
+}
+
+public class Super_calling_statement 
+{
+
+	public static void main(String[] args) 
+	{
+
+	}
+	Super_calling_statement()
+	{
+		System.out.println("3");
+	}
+
+}

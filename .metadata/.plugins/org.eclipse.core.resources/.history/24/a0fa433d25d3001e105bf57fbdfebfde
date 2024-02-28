@@ -1,0 +1,42 @@
+package practice;
+
+class City
+{
+	City()
+	{
+		System.out.println("1");
+	}
+	City(int a)
+	{
+		System.out.println("4");
+	}
+}
+class State extends City
+{
+	State()
+	{
+		System.out.println("2");
+	}
+	State(double b)
+	{
+		System.out.println("5");
+	}
+}
+public class Super_calling_statement extends State
+{
+	public static void main(String[] args) 
+	{	
+		new Super_calling_statement ();
+	}
+	Super_calling_statement()
+	{	super();
+		super(100);
+		super(100.10);
+		super("Manju");
+		System.out.println("3");
+	}
+	Super_calling_statement(String c)
+	{
+		System.out.println("6");
+	}
+}

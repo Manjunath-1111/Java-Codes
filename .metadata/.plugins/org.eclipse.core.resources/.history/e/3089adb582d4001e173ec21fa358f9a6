@@ -1,0 +1,20 @@
+package practice;
+
+public class Access_specifier 
+{
+
+	public void add()
+	{
+		
+	}
+	
+	private void sub()
+	}
+
+	{
+		
+	protected pinky()
+	{
+		
+	}
+}

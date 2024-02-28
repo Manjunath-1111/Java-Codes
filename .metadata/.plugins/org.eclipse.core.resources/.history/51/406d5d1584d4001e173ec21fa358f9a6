@@ -1,0 +1,32 @@
+package practice;
+
+public class Access_specifier2 {
+
+	public static void main(String[] args) {
+		add();
+		sub();
+		mul();
+		div();
+	}
+	public void add()
+	{
+		System.out.println("I'm Public");
+	}
+	private void sub()
+	{
+		System.out.println("I'm Private");
+	}
+	protected void mul()
+	{
+		System.out.println("I'm Protected");
+	}
+	void div()
+	{
+		System.out.println("I'm Default");
+	}	
+	Access_specifier2()
+	{
+		System.out.println("I'm Constructor");
+	}
+}
+

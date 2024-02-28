@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Datatypes.java&apos; to &apos;Assignments/src/package_assignments&apos;&#x0D;&#x0A;- Original project: &apos;Projectclassworks&apos;&#x0D;&#x0A;- Destination element: &apos;Assignments/src/package_assignments&apos;&#x0D;&#x0A;- Original element: &apos;packageclass.Datatypes.java&apos;" description="Copy compilation unit" destination="=Assignments/src&lt;package_assignments" element1="/src&lt;packageclass{Datatypes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704767497401" units="1" version="1.0"/>
+</session>

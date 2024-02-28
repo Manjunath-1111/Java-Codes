@@ -1,0 +1,16 @@
+package practice;
+
+import class_programs.Package1_Teacher2;
+
+public class Package2_student2 extends Package1_Teacher2
+{
+
+	public static void main(String[] args) 
+	{
+		Package1_Teacher2 t2=new Package1_Teacher2();
+		t2.add();
+				
+		}    	
+
+	}
+	

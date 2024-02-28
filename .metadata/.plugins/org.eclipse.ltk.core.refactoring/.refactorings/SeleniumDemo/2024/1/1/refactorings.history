@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;class1.java&apos; to &apos;Classwork_Batch38/src/class_programs&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumDemo&apos;&#x0D;&#x0A;- Destination element: &apos;Classwork_Batch38/src/class_programs&apos;&#x0D;&#x0A;- Original element: &apos;class1.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Classwork_Batch38/src&lt;class_programs" element1="class1.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1704163693846" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package practice;
+
+public class This_calling_statement 
+{
+	This_calling_statement()
+	{	this(100);
+		System.out.println("A");
+		
+	}
+	
+	This_calling_statement(int a)
+	{
+		System.out.println(a+10);
+	}
+	This_calling_statement(String a)
+	{
+		System.out.println(a+"");
+	}
+	public static void main(String[] args) 
+	{
+		new This_calling_statement();
+	}
+}

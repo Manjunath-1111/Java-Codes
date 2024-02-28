@@ -1,0 +1,41 @@
+package practice;
+
+abstract class API1
+{
+	abstract void login();
+	abstract void otp();
+}
+
+abstract class API2 extends API1
+
+{
+	abstract void logout();
+	void add()
+	{}
+}
+
+public class Abstract2 extends API2
+{
+	public static void main(String[] args) 
+	{
+		Abstract2 a1=new Abstract2();
+		a1.login();
+		a1.otp();
+		a1.logout();
+	}
+	
+	void logout() 
+	{
+		System.out.println("Logic for logout");
+	}
+	
+	void login() 
+	{
+		System.out.println("Logic for Login");
+	}
+	
+	void otp() 
+	{
+		System.out.println("Logic for OTP");
+	}
+}
